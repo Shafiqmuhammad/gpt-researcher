@@ -41,4 +41,9 @@ docker-compose up --build
 - the React app running on localhost:3000
 Visit localhost:3000 on any browser and enjoy researching!
 
+### Step 5 - Updated Dockerfile with GEMINI_API_KEY and TAVILY_API_KEY:
+```docker build --build-arg GEMINI_API_KEY=AIzaSyA5Iy01_cCVkb7efWgytdu8ZbwI9SFvvKk --build-arg TAVILY_API_KEY=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 -t gpt-researcher .
+```
+
+
 
