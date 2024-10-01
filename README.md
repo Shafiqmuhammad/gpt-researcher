@@ -25,11 +25,10 @@ For a more permanent setup, create a .env file in the current gpt-researcher dir
 
 ### Step 2 - Clone the '.env.example' file, add your API Keys to the cloned file and save the file as '.env'
 ```
-export OPENAI_API_KEY={Your OpenAI API Key here}
 export TAVILY_API_KEY={Your Tavily API Key here}
 
 LLM_PROVIDER=google
-GEMINI_API_KEY=[Your OpenAI API Key here]
+GEMINI_API_KEY=[Your GEMNAI API Key here]
 ```
 
 ### Step 3 - Within the docker-compose file comment out services that you don't want to run with Docker.
@@ -43,7 +42,7 @@ Visit localhost:3000 on any browser and enjoy researching!
 
 ### Step 5 - Updated Dockerfile with GEMINI_API_KEY and TAVILY_API_KEY:
 ```
-docker build --build-arg GEMINI_API_KEY=AIzaSyA5Iy01_cCVkb7efWgytdu8ZbwI9SFvvKk --build-arg TAVILY_API_KEY=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 -t gpt-researcher .
+docker build --build-arg GEMINI_API_KEY=GEMNAI API Key here --build-arg TAVILY_API_KEY=Tavily API Key here -t gpt-researcher .
 ```
 
 
