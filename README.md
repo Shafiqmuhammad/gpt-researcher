@@ -2,7 +2,8 @@
 
 ### Step 1 - Download the project and navigate to its directory
 
-```git clone https://github.com/assafelovic/gpt-researcher.git
+```
+git clone https://github.com/assafelovic/gpt-researcher.git
 cd gpt-researcher
 ```
 ### Step 3 - Set up API keys using two methods: exporting them directly or storing them in a .env file.
